@@ -1,6 +1,7 @@
 # PriceComparatorBackend
  
 Overview
+
 This is a application realized in Eclipse with Spring Boot framework and Maven build tool, designed to compare product prices across different stores, provide price history, product recommendations, basket optimization, and custom price alerts for users. The data is loaded from CSV files located in the resources folder.
 
 
