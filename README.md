@@ -10,11 +10,17 @@ Project Structure
 price-comparator-backend/src/main/java/com/pricecomparator
 
 /controller
+
 REST controllers for exposing API endpoints for products, discounts, recommendations, and alerts.
+
 	ProductController.java
+ 
 	DiscountController.java
+ 
 	BasketController.java
+ 
 	RecommendationController.java
+ 
 	PriceAlertController.java
 
 /model
