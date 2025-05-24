@@ -24,19 +24,31 @@ REST controllers for exposing API endpoints for products, discounts, recommendat
 	PriceAlertController.java
 
 /model
+
 Data models
+
 	Product.java
+ 
 	Discount.java
+ 
 	BasketItem.java
+ 
 	ProductRecommendation.java
+ 
 	PriceAlert.java
 
 /service
+
 	CsvLoaderService.java – Loads product data from CSV files.
+ 
 	DiscountService.java - Handles loading discount data from CSV files, filtering active discounts for a given date, identifying newly started discounts, and retrieving the top discounts sorted by percentage.
+ 
 	PriceHistoryService.java – Provides historical price data for products.
+ 
 	RecommendationService.java – Suggests substitute products based on category.
+ 
 	PriceAlertService.java – Manages user-defined price alerts, persisting them to a CSV file.
+ 
 	BasketService.java - Optimize a shopping basket by searching for the cheapest matching products across multiple stores on a given date
 
 PriceComparatorApplication.java
